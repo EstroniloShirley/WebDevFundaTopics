@@ -1,0 +1,138 @@
+
+
+*
+body {
+    background-color: #333;
+    text-align: center;
+    height: 1200px;
+}
+/*Navigation Bar */
+/*This will remove the bullets, apply margin and padding, and 
+extend the navigation bar with background color*/
+
+ul {
+    position: relative;
+    right: 250px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /*This will float the menu to left*/
+  li {
+    float: right;
+  }
+  
+  /*This will display, color, align the text, apply padding and remove the text underline*/
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /*This will highlight each navigation*/
+  .hov a:hover {
+    background-color: #7c7979;
+    color: #f7c08a;
+  }
+  
+  .active {
+    background-color: #f7c08a;
+  }
+
+  /* First Layer*/
+  .card {
+    border: 1px solid #333;
+    background-image: url(/03_Hotel/images/showcase.jpg);
+    height: 100px;
+    padding: 100px;
+  }
+  #enjoy {
+    height: 200px;
+  }
+  .aboutBtn {
+    color: white;
+    background-color: rgb(55, 52, 52);
+    border: none;
+    padding: 10px 20px;
+}
+.aboutBtn:hover {
+    color: rgb(247, 251, 250);
+    background-color: rgb(247, 192, 138);
+}
+ 
+ 
+    
+  
+  .peach {
+    color: #f7c08a;
+    background: none;
+    
+  }
+  /* Second Layer*/
+  img {
+    width:650px;
+    float: left;
+}
+.box-2 {
+    background: none;
+    text-align: center;
+    position: absolute;
+    float: right;
+    padding: 20px;
+    top: 550px;
+    right: 10px;
+    width: 600px;
+}
+.ReadBtn {
+    color: #333;
+    background-color: #f4f4f4;
+    border: none;
+    padding: 20px 25px;
+}
+.ReadBtn:hover {
+    color: #333;
+    background-color: #f7c08a;
+}
+/* Third Layer*/
+.box-3 {
+    background-color: rgb(192, 189, 189);
+    text-align: center;
+    position: absolute;
+    padding: 78px 68px;
+    top: 888px;
+    left: 7px;
+    width: 300px;
+}
+.box-4 {
+    background-color: #f7c08a;
+    text-align: center;
+    position: absolute;
+    padding: 78px 95px;
+    top: 888px;
+    left: 443px;
+    width: 250px ;
+}
+.box-5 {
+    background-color: rgb(192, 189, 189);
+    text-align: center;
+    position: absolute;
+    padding: 78px 91px;
+    top: 888px;
+    left: 870px;
+    width: 250px;
+    
+}
+#footer {
+    color: #f4f4f4;
+    position: absolute;
+    text-align: center;
+    padding: 0;
+    top: 1155px;
+    left: 500px;
+}
+
+

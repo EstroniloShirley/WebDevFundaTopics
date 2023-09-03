@@ -1,0 +1,53 @@
+*
+body {
+    background-color: #333;
+    text-align: center;
+    height: 1200px;
+}
+/*Navigation Bar */
+/*This will remove the bullets, apply margin and padding, and 
+extend the navigation bar with background color*/
+
+ul {
+    position: relative;
+    right: 250px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /*This will float the menu to left*/
+  li {
+    float: right;
+  }
+  
+  /*This will display, color, align the text, apply padding and remove the text underline*/
+ li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /*This will highlight each navigation*/
+  .hov a:hover {
+    background-color: #7c7979;
+    color: #f7c08a;
+  }
+  
+  .active {
+    background-color: #f7c08a;
+  }
+
+  #header {
+    background: #f4f4f4;
+    text-align: left;
+    position: absolute;
+    float: left;
+    padding: 5px;
+    top: 50px;
+    left: 10px;
+    width: 1290px;
+}

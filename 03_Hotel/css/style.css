@@ -1,0 +1,63 @@
+
+* body{
+   
+    
+    
+}
+.home {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background: #333;
+
+}
+
+.navbar {
+    color: white;
+    overflow: auto;
+}
+.navbar h1 {
+    float: left;
+}
+.navbar h1 a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 1px 400px;
+}
+.navbar li {
+    list-style: none;
+    float: right;
+}
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 20px;
+    padding-right: 300px;
+    top: 5%;
+}
+
+
+
+#enjoy {
+    
+    width: 1500px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 650px;
+    background: url(/03_Hotel/images/showcase.jpg);
+}
+img {
+    width:630px;
+    float: left;
+}
+
+#box01 {
+    background: url(/03_Hotel/images/photo-1.jpg);
+}
+
+
+
+  
