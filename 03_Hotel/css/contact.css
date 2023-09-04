@@ -33,7 +33,7 @@ ul {
   }
   /*This will highlight each navigation*/
   .hov a:hover {
-    background-color: #7c7979;
+    background-color: #b5b2b214;
     color: #f7c08a;
   }
   
@@ -41,13 +41,11 @@ ul {
     background-color: #f7c08a;
   }
 
-  #header {
-    background: #f4f4f4;
-    text-align: left;
+  #footer {
+    color: #f4f4f4;
     position: absolute;
-    float: left;
-    padding: 5px;
-    top: 50px;
-    left: 10px;
-    width: 1290px;
+    text-align: center;
+    padding: 0;
+    top: 1155px;
+    left: 500px;
 }
