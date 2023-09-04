@@ -1,4 +1,5 @@
 
+
 #navbar .logo {
     float: none;
     text-align: center;
@@ -7,6 +8,7 @@
   #navbar ul,
   #navbar ul li {
     float: none;
+    
   }
   
   #navbar ul li a {
@@ -14,6 +16,8 @@
     border-bottom: #444 dotted 1px;
   }
 
+  
+/*home*/
   #home-info .info-img {
     display: none;
   }
@@ -24,7 +28,7 @@
   #features .box {
     float: none;
     text-align: center;
-    width: 140vh;
+    width: 100%;
 
   }
 
@@ -35,9 +39,15 @@
   width: 100%;
 }
 
-#about-info .bg-light .container .info-right img {
+#about-info .container .info-right {
   float: none;
+  width: 100%;
 }
+#testimonials h2 {
+  padding-top: 30px;
+
+}
+
 
 /*contact*/
 #contact-info .container .box {
