@@ -15,21 +15,25 @@
     padding: 5px;
     border-bottom: #444 dotted 1px;
   }
-
   
-/*home*/
+  /*home*/
+ 
+  #home-info {
+    height: 600px;
+  }
   #home-info .info-img {
     display: none;
   }
+
   #home-info .info-content {
     float: none;
     width: 100%;
+    padding-bottom: 30px;
   }
   #features .box {
     float: none;
     text-align: center;
     width: 100%;
-
   }
 
 /*about*/
@@ -55,6 +59,11 @@
   text-align: center;
   width: 100% ;
   border-bottom: #444 dotted 1px;
+}
+
+/*footer*/
+#main-footer p {
+  text-size-adjust: 5px;
 }
 
 

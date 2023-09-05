@@ -1,0 +1,20 @@
+/* Text color */
+.text-primary {
+    color: #28a745;
+  }
+  
+  .text-secondary {
+    color: #0284d0;
+  }
+
+.btn {
+  background: #28a745;
+  height: 39px;
+  width: 140px;
+  border-radius: 5px;
+  border-color: #28a745;
+  
+}
+.btn :hover {
+  color: #f4f4f4;
+}
